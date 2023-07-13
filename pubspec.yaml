@@ -1,0 +1,392 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  http: ^0.13.4
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/combined-shape.png
+    - assets/page-1/images/combined-shape-Led.png
+    - assets/page-1/images/wi-fi.png
+    - assets/page-1/images/wi-fi-nzu.png
+    - assets/page-1/images/iconly-bold-info-circle.png
+    - assets/page-1/images/combined-shape-jp5.png
+    - assets/page-1/images/iconly-light-hide.png
+    - assets/page-1/images/wi-fi-3k5.png
+    - assets/page-1/images/iconly-light-show.png
+    - assets/page-1/images/checkbox.png
+    - assets/page-1/images/mic.png
+    - assets/page-1/images/checkbox-tMX.png
+    - assets/page-1/images/keys-icon.png
+    - assets/page-1/images/checkbox-tau.png
+    - assets/page-1/images/checkbox-mds.png
+    - assets/page-1/images/keys-icon-EKj.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/wi-fi-USu.png
+    - assets/page-1/images/iconly-light-arrow-left.png
+    - assets/page-1/images/battery-697.png
+    - assets/page-1/images/battery-LAV.png
+    - assets/page-1/images/checkbox-kDX.png
+    - assets/page-1/images/battery-iKT.png
+    - assets/page-1/images/keys-icon-Yd7.png
+    - assets/page-1/images/keys-icon-w4D.png
+    - assets/page-1/images/combined-shape-2KB.png
+    - assets/page-1/images/battery-9LV.png
+    - assets/page-1/images/left-arrow-circle.png
+    - assets/page-1/images/battery-fVj.png
+    - assets/page-1/images/combined-shape-9qT.png
+    - assets/page-1/images/notification-1.png
+    - assets/page-1/images/combined-shape-uQV.png
+    - assets/page-1/images/combined-shape-7gm.png
+    - assets/page-1/images/iconly-light-hide-GJV.png
+    - assets/page-1/images/iconly-light-show-xr5.png
+    - assets/page-1/images/chevron-right-1-1.png
+    - assets/page-1/images/battery-5dT.png
+    - assets/page-1/images/wi-fi-5sf.png
+    - assets/page-1/images/wi-fi-vYq.png
+    - assets/page-1/images/iconly-light-arrow-left-SGH.png
+    - assets/page-1/images/wi-fi-t8h.png
+    - assets/page-1/images/wi-fi-pwT.png
+    - assets/page-1/images/combined-shape-nrD.png
+    - assets/page-1/images/iconly-light-show-NiV.png
+    - assets/page-1/images/frame-182.png
+    - assets/page-1/images/iconly-light-show-yLm.png
+    - assets/page-1/images/battery-dXf.png
+    - assets/page-1/images/combined-shape-1bP.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/battery-n6D.png
+    - assets/page-1/images/attach.png
+    - assets/page-1/images/wi-fi-eGq.png
+    - assets/page-1/images/battery-NUy.png
+    - assets/page-1/images/combined-shape-cmF.png
+    - assets/page-1/images/iconly-light-hide-eC9.png
+    - assets/page-1/images/chevron-right-1-2.png
+    - assets/page-1/images/wi-fi-NB3.png
+    - assets/page-1/images/battery-hYd.png
+    - assets/page-1/images/iconly-light-hide-vMP.png
+    - assets/page-1/images/ellipse-907-bg.png
+    - assets/page-1/images/wi-fi-n1P.png
+    - assets/page-1/images/combined-shape-fpV.png
+    - assets/page-1/images/lightning-command-runner.png
+    - assets/page-1/images/ellipse-910-bg.png
+    - assets/page-1/images/wi-fi-BoP.png
+    - assets/page-1/images/group-1000005031.png
+    - assets/page-1/images/group-1000005030.png
+    - assets/page-1/images/ellipse-907-bg-9eH.png
+    - assets/page-1/images/chevron-left-1.png
+    - assets/page-1/images/chevron-right-1-3.png
+    - assets/page-1/images/chevron-right-1-5.png
+    - assets/page-1/images/emojis.png
+    - assets/page-1/images/vector-meh.png
+    - assets/page-1/images/check-all.png
+    - assets/page-1/images/chevron-left-1-FuB.png
+    - assets/page-1/images/chevron-right-1-4.png
+    - assets/page-1/images/emojis-5Ny.png
+    - assets/page-1/images/wi-fi-v3T.png
+    - assets/page-1/images/combined-shape-vSu.png
+    - assets/page-1/images/group-15.png
+    - assets/page-1/images/wi-fi-v9w.png
+    - assets/page-1/images/combined-shape-KPP.png
+    - assets/page-1/images/group-14.png
+    - assets/page-1/images/left-arrow-circle-7oo.png
+    - assets/page-1/images/group-1000005095.png
+    - assets/page-1/images/chevron-left-1-GYq.png
+    - assets/page-1/images/wi-fi-Rfw.png
+    - assets/page-1/images/ellipse-911-bg.png
+    - assets/page-1/images/mic-1CD.png
+    - assets/page-1/images/combined-shape-j13.png
+    - assets/page-1/images/battery-1q3.png
+    - assets/page-1/images/vector-BqK.png
+    - assets/page-1/images/combined-shape-XuB.png
+    - assets/page-1/images/ellipse-906-bg.png
+    - assets/page-1/images/ellipse-909-bg.png
+    - assets/page-1/images/ellipse-909-bg-g6u.png
+    - assets/page-1/images/ellipse-907-bg-HTw.png
+    - assets/page-1/images/vector-Xww.png
+    - assets/page-1/images/edit-5.png
+    - assets/page-1/images/group-1000005062.png
+    - assets/page-1/images/vector-GGH.png
+    - assets/page-1/images/frame-184.png
+    - assets/page-1/images/wi-fi-72h.png
+    - assets/page-1/images/ellipse-911-bg-tLH.png
+    - assets/page-1/images/logo-1.png
+    - assets/page-1/images/ellipse-909-bg-PAy.png
+    - assets/page-1/images/battery-QU1.png
+    - assets/page-1/images/chevron-left-1-GCR.png
+    - assets/page-1/images/group-1000005031-2AM.png
+    - assets/page-1/images/wi-fi-dLm.png
+    - assets/page-1/images/group-1000005095-w1K.png
+    - assets/page-1/images/wi-fi-7Vb.png
+    - assets/page-1/images/battery-v4y.png
+    - assets/page-1/images/combined-shape-NBs.png
+    - assets/page-1/images/vector-vUH.png
+    - assets/page-1/images/combined-shape-p3s.png
+    - assets/page-1/images/group-1000005052.png
+    - assets/page-1/images/battery-9bw.png
+    - assets/page-1/images/group-1000005095-nX3.png
+    - assets/page-1/images/battery-L2m.png
+    - assets/page-1/images/iconly-light-show-abs.png
+    - assets/page-1/images/group-1000005031-6AD.png
+    - assets/page-1/images/ellipse-915.png
+    - assets/page-1/images/checkbox-ESm.png
+    - assets/page-1/images/ellipse-914.png
+    - assets/page-1/images/group-1000005031-tvd.png
+    - assets/page-1/images/edit-4.png
+    - assets/page-1/images/ellipse-915-SjB.png
+    - assets/page-1/images/chevron-left-1-Y1X.png
+    - assets/page-1/images/notification-1-VxM.png
+    - assets/page-1/images/iconly-light-show-3iy.png
+    - assets/page-1/images/battery-mgu.png
+    - assets/page-1/images/ellipse-907-bg-8CZ.png
+    - assets/page-1/images/notification-1-KwF.png
+    - assets/page-1/images/lightning-command-runner-jEH.png
+    - assets/page-1/images/wi-fi-gvD.png
+    - assets/page-1/images/ellipse-905-bg.png
+    - assets/page-1/images/combined-shape-fcD.png
+    - assets/page-1/images/ellipse-906-bg-Rny.png
+    - assets/page-1/images/ellipse-908-bg.png
+    - assets/page-1/images/ellipse-908-bg-Ych.png
+    - assets/page-1/images/ellipse-906-bg-wKP.png
+    - assets/page-1/images/edit-3.png
+    - assets/page-1/images/edit-2.png
+    - assets/page-1/images/ellipse-905-bg-HnZ.png
+    - assets/page-1/images/edit-1.png
+    - assets/page-1/images/ellipse-905-bg-xr5.png
+    - assets/page-1/images/group-1000005062-xND.png
+    - assets/page-1/images/ellipse-905-bg-UiV.png
+    - assets/page-1/images/battery-MWZ.png
+    - assets/page-1/images/edit-5-F9B.png
+    - assets/page-1/images/ellipse-905-bg-avm.png
+    - assets/page-1/images/log-out-1.png
+    - assets/page-1/images/ellipse-905-bg-3km.png
+    - assets/page-1/images/vector-hEq.png
+    - assets/page-1/images/ellipse-915-hY5.png
+    - assets/page-1/images/attach-YLy.png
+    - assets/page-1/images/ellipse-914-mQ5.png
+    - assets/page-1/images/ellipse-914-t8R.png
+    - assets/page-1/images/vector-tY1.png
+    - assets/page-1/images/ellipse-914-SSM.png
+    - assets/page-1/images/wi-fi-Vsf.png
+    - assets/page-1/images/menu-1.png
+    - assets/page-1/images/combined-shape-ogM.png
+    - assets/page-1/images/ellipse-915-RsP.png
+    - assets/page-1/images/group-1000005095-MXP.png
+    - assets/page-1/images/ellipse-905-bg-VzH.png
+    - assets/page-1/images/ellipse-914-gnV.png
+    - assets/page-1/images/battery-BSy.png
+    - assets/page-1/images/ellipse-915-65P.png
+    - assets/page-1/images/vector-yV3.png
+    - assets/page-1/images/ellipse-914-17w.png
+    - assets/page-1/images/ellipse-910-bg-6Zw.png
+    - assets/page-1/images/battery-WZ7.png
+    - assets/page-1/images/ellipse-906-bg-Tz9.png
+    - assets/page-1/images/ellipse-910-bg-fNh.png
+    - assets/page-1/images/menu-1-M5K.png
+    - assets/page-1/images/vector-to3.png
+    - assets/page-1/images/ellipse-905-bg-BVB.png
+    - assets/page-1/images/battery-zuX.png
+    - assets/page-1/images/vector-WPj.png
+    - assets/page-1/images/ellipse-914-D2Z.png
+    - assets/page-1/images/ellipse-907-bg-otV.png
+    - assets/page-1/images/combined-shape-eyX.png
+    - assets/page-1/images/ellipse-27.png
+    - assets/page-1/images/ellipse-905-bg-JkR.png
+    - assets/page-1/images/ellipse-905-bg-5a9.png
+    - assets/page-1/images/notification-1-drZ.png
+    - assets/page-1/images/wi-fi-E17.png
+    - assets/page-1/images/ellipse-915-AvM.png
+    - assets/page-1/images/ellipse-905-bg-Dp5.png
+    - assets/page-1/images/vector-aPj.png
+    - assets/page-1/images/ellipse-906-bg-6Vo.png
+    - assets/page-1/images/ellipse-915-5xV.png
+    - assets/page-1/images/frame-10.png
+    - assets/page-1/images/group-1000005031-6bK.png
+    - assets/page-1/images/ellipse-914-2js.png
+    - assets/page-1/images/group-1000005031-Xj7.png
+    - assets/page-1/images/vector-7yB.png
+    - assets/page-1/images/ellipse-913-bg.png
+    - assets/page-1/images/group-1000005095-VDj.png
+    - assets/page-1/images/ellipse-915-5t5.png
+    - assets/page-1/images/group-1000005095-a8h.png
+    - assets/page-1/images/vector-4hP.png
+    - assets/page-1/images/combined-shape-oey.png
+    - assets/page-1/images/vector-W6V.png
+    - assets/page-1/images/frame-10-quT.png
+    - assets/page-1/images/combined-shape-G9X.png
+    - assets/page-1/images/battery-CJ5.png
+    - assets/page-1/images/vector-j9j.png
+    - assets/page-1/images/menu-1-VKF.png
+    - assets/page-1/images/ellipse-26-bg.png
+    - assets/page-1/images/ellipse-26-bg-rL1.png
+    - assets/page-1/images/group-1000005031-a2u.png
+    - assets/page-1/images/vector-sDT.png
+    - assets/page-1/images/ellipse-905-bg-a4Z.png
+    - assets/page-1/images/vector-e4y.png
+    - assets/page-1/images/menu-1-tL1.png
+    - assets/page-1/images/frame-10-du3.png
+    - assets/page-1/images/frame-10-TFo.png
+    - assets/page-1/images/ellipse-26.png
+    - assets/page-1/images/combined-shape-MJZ.png
+    - assets/page-1/images/combined-shape-MRb.png
+    - assets/page-1/images/frame-10-m2q.png
+    - assets/page-1/images/battery-ov1.png
+    - assets/page-1/images/clock-1.png
+    - assets/page-1/images/wi-fi-9Qm.png
+    - assets/page-1/images/battery-ZBP.png
+    - assets/page-1/images/menu-1-Mxu.png
+    - assets/page-1/images/ellipse-913-bg-YPj.png
+    - assets/page-1/images/vector-DEH.png
+    - assets/page-1/images/battery-2qF.png
+    - assets/page-1/images/wi-fi-kg1.png
+    - assets/page-1/images/vector-qL5.png
+    - assets/page-1/images/wi-fi-bbP.png
+    - assets/page-1/images/group-1000005117.png
+    - assets/page-1/images/notification-1-MFw.png
+    - assets/page-1/images/notification-1-gp1.png
+    - assets/page-1/images/x-circle-1.png
+    - assets/page-1/images/group-1000005031-pch.png
+    - assets/page-1/images/frame-10-xdf.png
+    - assets/page-1/images/vector-W9P.png
+    - assets/page-1/images/ellipse-914-Z8D.png
+    - assets/page-1/images/notification-1-VnZ.png
+    - assets/page-1/images/notification-1-oi1.png
+    - assets/page-1/images/combined-shape-jQd.png
+    - assets/page-1/images/vector-6W5.png
+    - assets/page-1/images/group-1000005095-nhw.png
+    - assets/page-1/images/ellipse-916-bg.png
+    - assets/page-1/images/clock-2.png
+    - assets/page-1/images/group-1000005095-2Gq.png
+    - assets/page-1/images/ellipse-916-bg-WZf.png
+    - assets/page-1/images/ellipse-913-bg-oRT.png
+    - assets/page-1/images/wi-fi-BLV.png
+    - assets/page-1/images/chevron-left-1-ofw.png
+    - assets/page-1/images/ellipse-915-beH.png
+    - assets/page-1/images/group-1000005031-nem.png
+    - assets/page-1/images/group-1000005095-aB3.png
+    - assets/page-1/images/ellipse-915-FRT.png
+    - assets/page-1/images/ellipse-913-bg-4U1.png
+    - assets/page-1/images/ellipse-914-F21.png
+    - assets/page-1/images/battery-J2D.png
+    - assets/page-1/images/vector-2g1.png
+    - assets/page-1/images/menu-1-SLR.png
+    - assets/page-1/images/image-1.png
+    - assets/page-1/images/combined-shape-kEd.png
+    - assets/page-1/images/notification-1-obX.png
+    - assets/page-1/images/x-circle-1-DYm.png
+    - assets/page-1/images/attach-mKP.png
+    - assets/page-1/images/mic-Hiy.png
+    - assets/page-1/images/ellipse-915-sgu.png
+    - assets/page-1/images/vector-Wyw.png
+    - assets/page-1/images/vector-2xZ.png
+    - assets/page-1/images/ellipse-914-eC1.png
+    - assets/page-1/images/ellipse-913-bg-i8R.png
+    - assets/page-1/images/wi-fi-g2D.png
+    - assets/page-1/images/lightning-command-runner-BUm.png
+    - assets/page-1/images/emojis-seZ.png
+    - assets/page-1/images/ellipse-909-bg-Nss.png
+    - assets/page-1/images/ellipse-906-bg-eMX.png
+    - assets/page-1/images/ellipse-905-bg-8g9.png
+    - assets/page-1/images/check-all-YvD.png
+    - assets/page-1/images/ellipse-913-bg-RhT.png
+    - assets/page-1/images/battery-ahw.png
+    - assets/page-1/images/ellipse-914-kkR.png
+    - assets/page-1/images/ellipse-907-bg-KFf.png
+    - assets/page-1/images/left-arrow-circle-PWZ.png
+    - assets/page-1/images/chevron-left-1-tyf.png
+    - assets/page-1/images/wi-fi-34d.png
+    - assets/page-1/images/keys-icon-Ymf.png
+    - assets/page-1/images/wi-fi-EJm.png
+    - assets/page-1/images/ellipse-915-LS5.png
+    - assets/page-1/images/combined-shape-2pZ.png
+    - assets/page-1/images/battery-s7X.png
+    - assets/page-1/images/combined-shape-pn5.png
+    - assets/page-1/images/keys-icon-HSy.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
