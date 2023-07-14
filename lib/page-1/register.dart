@@ -51,7 +51,6 @@ class _SceneState extends State<Register> {
       } else {
         var data = (response.body.toString());
         print(data);
-        print("Error");
       }
     } catch (e) {
       print(e.toString());
